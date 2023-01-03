@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./js/qrcode.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./images/federal-university-of-petroleum.jpg" alt="" srcset="">
+            </div>
+            <div class="federal">
+                <h1>Federal University Of Petroleum Resources Effurun <br> Delta state</h1>
+            </div>
+        </header>
+        <div class="dept">
+            <h3>Physics Department Atendance list with Qr code</h3>
+        </div>
+        <div>
+            <a href="./index.html"> go back</a>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="img">
+                    <!-- <img src="./images/IMG-20221003-WA0005.jpg" alt=""> -->
+                </div>
+                <div class="name"> Name: <span id="name-display"></span> </div>
+                <div class="level">
+                    <div class="lev"> Level: 400L </div>
+                    <div class="lev"> Mat Num: <span id="matric-display"></span> </div>
+                </div>
+                <div id="qrcode">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
